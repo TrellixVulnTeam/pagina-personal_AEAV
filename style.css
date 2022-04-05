@@ -89,8 +89,9 @@ header .textos-header {
 /* About me */
 
 .contenedor-sobre-mi {
-    display: flex;
-    justify-content: space-evenly 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
 }
 
 .galeria-me {
@@ -205,6 +206,9 @@ header .textos-header {
 /* Galeria */
 
 .portfolio {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
     background: #f2f2f2;
     margin-bottom: 100px;
 }
@@ -268,6 +272,9 @@ header .textos-header {
     grid-template-rows: 100px;
     row-gap: 20px;
     column-gap: 20px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
 }
 
 .cards .card {
@@ -308,9 +315,16 @@ header .textos-header {
 }
 
 .servicio-cont {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px;
+    row-gap: 20px;
+    column-gap: 20px;
+    grid-row-start: 1;
     align-items: center;
+    justify-items: center;
+    width: 100%;
+    height: 100%;
 }
 
 .servicio-ind {
@@ -339,6 +353,9 @@ footer {
     padding: 60px 0 30px 0;
     margin: auto;
     overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
 }
 
 .contenedor-footer {
