@@ -8,7 +8,7 @@
     $asunto = 'Este mail fue enviado desde la web';
 
 
-    mail($para, $asunto, utf8_decode($nombre, $mail, $mensaje));
+    mail($joaquinahumada1998@gmail.com, $paginaPersonal, utf8_decode($nombre, $mail, $mensaje));
 
     
     header('Location:exito.html');
