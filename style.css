@@ -90,7 +90,8 @@ header .textos-header {
 
 .contenedor-sobre-mi {
     display: flex;
-    justify-content: space-evenly flex-wrap: wrap;
+    justify-content: space-evenly 
+    flex-wrap: wrap;
 }
 
 .galeria-me {
