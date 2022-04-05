@@ -1,5 +1,5 @@
 <?php
-    
+    $nombre = $_POST["nombre"]
     $mail = $_POST['email'];
     $mensaje = $_POST['textarea'];
     
