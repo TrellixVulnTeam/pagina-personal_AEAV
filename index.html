@@ -157,8 +157,43 @@
         </section>
 
         <!-- CONTACTO -->
-        <section class="Contacto">
+        <section class="contenedor">
+            <div class="contacton">
+                <h2 class="titulo">Contactame</h2>
+                <form action="form.php" method="post" class="contacto-form">
+                    <div class="form-row">
+                        <label for="full-name">Name</label>
+                        <input type="text" id="full-name" placeholder="Ej: Joaquin Ahumada" name="nombre" required>
+                    </div>
 
+                    <div class="form-row">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" placeholder="Ej: example@gmail.com" name="email" required>
+                    </div>
+
+                    <fieldset class="legacy-from-row">
+                        <legend>Tipo de charla</legend>
+                        <input type="radio" name="tipo-de-charla" id="charla1">
+                        <label for="charla1" class="radio-lable">Empleador</label>
+
+                        <input type="radio" name="tipo-de-charla" id="charla2">
+                        <label for="charla2" class="radio-lable">Prestacion De Servicios</label>
+
+                        <input type="radio" name="tipo-de-charla" id="charla3" checked>
+                        <label for="charla3" class="radio-lable">Otro</label>
+                    </fieldset>
+
+                    <div class="form-row">
+                        <label for="abstract">Su Mensaje</label>
+                        <textarea name="textarea" id="abstract" cols="30" rows="10"></textarea>
+                        <p class="instructions">Describa su charla en 200 palabras o menos</p>
+                    </div>
+
+                    <div class="form-row">
+                        <button type="submit" class="button">Enviar</button>
+                    </div>
+                </form>
+            </div>
         </section>
     </main>
 
