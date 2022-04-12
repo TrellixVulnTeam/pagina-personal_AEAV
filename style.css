@@ -92,6 +92,15 @@ header .textos-header {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
+    animation-name: mover;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+.contenedor-sobre-mi:hover{
+    animation-name: mover;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
 }
 
 .galeria-me {
@@ -458,3 +467,12 @@ footer {
     background-color: rgb(255, 217, 2);
 }
 
+@keyframes mover {
+
+   0%{
+       transform: translateX(100%);
+   } 
+   100%{
+       transform: translateX(0);
+   }
+}
