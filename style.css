@@ -97,12 +97,6 @@ header .textos-header {
     animation-fill-mode: forwards;
 }
 
-.contenedor-sobre-mi:hover{
-    animation-name: mover;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
-}
-
 .galeria-me {
     display: flex;
     justify-content: space-evenly;
