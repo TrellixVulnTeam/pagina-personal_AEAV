@@ -463,7 +463,7 @@ footer {
 
 @keyframes mover {
 
-    1%{
+    0%{
         transform: translateX(100%);
     } 
     100%{
