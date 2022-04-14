@@ -43,19 +43,19 @@ header {
     color: white;
 }
 
-nav {
+.navs {
     text-align: right;
     padding: 30px 50px 0 0;
 }
 
-nav>a {
+.navs>a {
     color: white;
     font-weight: 300;
     text-decoration: none;
     margin-right: 10px;
 }
 
-nav>a:hover {
+.navs>a:hover {
     text-decoration: underline;
 }
 
@@ -95,6 +95,8 @@ header .textos-header {
     animation-name: mover;
     animation-duration: 3s;
     animation-fill-mode: forwards;
+    margin-bottom: 100px;
+    margin-top: 100px;
 }
 
 .galeria-me {
@@ -104,7 +106,6 @@ header .textos-header {
 }
 
 .imagen-me {
-    width: 80%;
     margin-bottom: 10px;
     overflow: hidden;
     position: relative;
@@ -136,7 +137,7 @@ header .textos-header {
 }
 
 .hover-me img {
-    width: 300px;
+    width: 400px;
 }
 
 .hover-me p {
@@ -147,8 +148,8 @@ header .textos-header {
     transform: scale(1);
 }
 
-.sobre-nosotros .contenido-textos {
-    width: 48%;
+.contenedorsobremi .contenido-textos {
+    width: 50%;
 }
 
 .contenido-textos h3 {
@@ -268,7 +269,7 @@ header .textos-header {
 
 /* Clientes */
 
-.cards {
+.cardsn {
     margin-bottom: 100px;
     display: grid;
     grid-template-columns: 1fr 1fr ;
@@ -280,8 +281,8 @@ header .textos-header {
     align-items: center;
 }
 
-.cards .card {
-    height: 100px;
+.cardsn .cardn {
+    height: 115px;
     background: rgb(255, 187, 0);
     display: flex;
     width: 90%;
@@ -291,7 +292,7 @@ header .textos-header {
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
 }
 
-.cards .card img {
+.cardsn .cardn img {
     width: 100px;
     height: 100px;
     object-fit: cover;
@@ -300,12 +301,12 @@ header .textos-header {
     display: block;
 }
 
-.cards .card>.contenido-texto-card {
+.cardsn .cardn>.contenido-texto-card {
     width: 60%;
     color: #fff;
 }
 
-.cards .card>.contenido-texto-card p {
+.cardsn .cardn>.contenido-texto-card p {
     font-weight: 300;
     padding-top: 5px;
 }
@@ -351,7 +352,7 @@ header .textos-header {
 
 /* Footer */
 
-footer {
+.footers {
     background: #414141;
     padding: 60px 0 30px 0;
     margin: auto;
@@ -470,3 +471,5 @@ footer {
         transform: translateX(0);
     }
  }
+
+ 
