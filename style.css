@@ -315,7 +315,7 @@ header .textos-header {
 
 .about-service {
     background: #f2f2f2;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 .servicio-cont {
@@ -338,14 +338,17 @@ header .textos-header {
 }
 
 .servicio-ind img {
-    width: 90%;
+    width: 100%;
 }
 
 .servicio-ind h3 {
-    margin: 10px 0;
+    margin: 20px 0;
 }
 
 .servicio-ind p {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
     font-weight: 300;
     text-align: justify;
 }
