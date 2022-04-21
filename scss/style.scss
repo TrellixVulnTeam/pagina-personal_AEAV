@@ -1,0 +1,35 @@
+@import "header";
+@import "listas";
+@import "variables";
+@import "mapas";
+@import "aboutMe";
+@import "galeria";
+@import "clientes";
+@import "misServicios";
+@import "footer";
+@import "contacto";
+*{
+     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Hubballi", cursive;
+}
+
+.contenedor{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.titulod{
+    color: rgb(255, 187, 0);
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 60px;
+    background-color: #f2f2f2;
+}
