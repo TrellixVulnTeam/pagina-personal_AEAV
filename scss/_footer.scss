@@ -9,7 +9,7 @@
 }
 .contenedor-footer {
     display: flex;
-    width: 90%;
+    @include sizes(90%, 100%);
     justify-content: space-evenly;
     margin: auto;
     padding-bottom: 50px;

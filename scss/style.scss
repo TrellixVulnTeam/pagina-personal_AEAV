@@ -8,6 +8,7 @@
 @import "misServicios";
 @import "footer";
 @import "contacto";
+@import "mixins";
 *{
      margin: 0;
     padding: 0;
@@ -20,7 +21,7 @@ body{
 
 .contenedor{
     padding: 60px 0;
-    width: 90%;
+    @include sizes(90%, 100%);
     max-width: 1000px;
     margin: auto;
     overflow: hidden;

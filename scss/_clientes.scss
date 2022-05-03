@@ -10,24 +10,22 @@
     align-items: center;
     .cardn {
         >.contenido-texto-card {
-            width: 60%;
+            @include sizes(60%, 100%);
             color: #fff;
             p {
                 font-weight: 300;
                 padding-top: 5px;
             }
         }
-        height: 115px;
         background: rgb(255, 187, 0);
         display: flex;
-        width: 90%;
+        @include sizes(90%, 115px);
         align-items: center;
         justify-content: space-evenly;
         border-radius: 5px;
         box-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
         img {
-            width: 100px;
-            height: 100px;
+            @include sizes(100%, 100%);
             object-fit: cover;
             border: 3px solid #fff;
             border-radius: 50%;
