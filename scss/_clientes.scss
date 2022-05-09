@@ -7,10 +7,11 @@
     column-gap: 20px;
     justify-content: center;
     justify-items: center;
-    align-items: center;
+    align-items: space-evenly;
     .cardn {
         >.contenido-texto-card {
-            @include sizes(60%, 100%);
+            width: 100%;
+            height: 100%;
             color: #fff;
             p {
                 font-weight: 300;
@@ -19,13 +20,15 @@
         }
         background: rgb(255, 187, 0);
         display: flex;
-        @include sizes(90%, 115px);
+        width: 80%;
+        height: 80%;
         align-items: center;
         justify-content: space-evenly;
         border-radius: 5px;
         box-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
         img {
-            @include sizes(100%, 100%);
+            width: 100px;
+            height: 100%;
             object-fit: cover;
             border: 3px solid #fff;
             border-radius: 50%;

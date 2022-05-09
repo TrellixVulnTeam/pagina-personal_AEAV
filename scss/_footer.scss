@@ -9,14 +9,16 @@
 }
 .contenedor-footer {
     display: flex;
-    @include sizes(90%, 100%);
+    width: 100%;
+    height: 100%;   
     justify-content: space-evenly;
     margin: auto;
-    padding-bottom: 50px;
+    padding-bottom: 80px;
     border-bottom: 1px solid #ccc;
 }
 .content-foo {
     text-align: center;
+    height: 500px;
     h4 {
         color: #fff;
         border-bottom: 3px solid rgb(255, 187, 0);
@@ -25,6 +27,7 @@
     }
     p {
         color: #ccc;
+        height: 100%;
     }
 }
 
