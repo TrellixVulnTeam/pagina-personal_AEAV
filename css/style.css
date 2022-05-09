@@ -68,7 +68,7 @@ header .textos-header {
   margin-top: 100px;
 }
 .contenedor-sobre-mi .contenido-textos {
-  width: 50%;
+  width: 100%;
 }
 .contenedor-sobre-mi .contenido-textos p {
   padding: 0px 0px 30px 15px;
@@ -83,7 +83,7 @@ header .textos-header {
   text-align: center;
   width: 30px;
   height: 30px;
-  padding: 2px;
+  padding: 3px;
   box-shadow: none;
   margin-right: 5px;
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
@@ -127,11 +127,10 @@ header .textos-header {
 }
 
 .imagen-me {
-  width: 1fr;
+  width: 500px;
   margin-bottom: 10px;
   overflow: hidden;
   position: relative;
-  cursor: pointer;
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
 }
 .imagen-me > img {
