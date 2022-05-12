@@ -519,6 +519,20 @@ header .textos-header {
     margin-left: 10px;
   }
 }
+.imagen-me {
+  width: 100%;
+  margin-bottom: 10px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
+}
+.imagen-me > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
 * {
   margin: 0;
   padding: 0;
