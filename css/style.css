@@ -68,6 +68,7 @@ header .textos-header {
   margin-top: 100px;
 }
 .contenedor-sobre-mi .contenido-textos {
+  margin-left: 20px;
   width: 100%;
 }
 .contenedor-sobre-mi .contenido-textos p {
@@ -127,7 +128,7 @@ header .textos-header {
 }
 
 .imagen-me {
-  width: 500px;
+  width: 400px;
   margin-bottom: 10px;
   overflow: hidden;
   position: relative;
